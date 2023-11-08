@@ -1,0 +1,31 @@
+body {
+  box-sizing: border-box;
+}
+
+.horizontal-scroll {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.ecran {
+  width: 1438px;
+  height: 600px;
+  border: 5px solid blue;
+  position: relative;
+  top: 222px;
+  left: 0;
+}
+
+.ecran-2 {
+  width: 2747px;
+  height: 600px;
+}
+
+.ecran-2 .img-1 {
+  width: 200px;
+  height: 570px;
+  background-color: #ab6eb6;
+  position: absolute;
+  left: 25%;
+  top: -20%;
+}
