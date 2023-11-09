@@ -21,199 +21,373 @@ body {
   font-size: 30px;
 }
 
-.ecran-1 .texte-1 {
-  border: 2px solid rgb(0, 0, 0);
-  padding: 10px;
-  position: absolute;
-  left: 1%;
-  top: -21%;
+.fourty {
+  .ecran-1 .texte-1 {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    position: absolute;
+    left: 1%;
+    top: -21%;
+  }
+
+  .ecran-2 {
+    width: 2747px;
+    height: 600px;
+  }
+
+  .ecran-2 .img-1 {
+    width: 200px;
+    height: 570px;
+    background-color: #ab6eb6;
+    position: absolute;
+    left: 25%;
+    top: -20%;
+  }
+
+  .ecran-2 .texte-1 {
+    position: absolute;
+    left: 35%;
+    bottom: -21%;
+  }
+
+  .bg {
+    width: 12030px;
+    display: inline-flex;
+    flex-direction: row;
+    background-repeat: repeat-x;
+    background-image: url(../img/train-moitié.png);
+    background-size: 50%;
+    border: 5px solid blue;
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translate(0, 28%);
+  }
+
+  .bg .screen {
+    position: relative;
+    border: 5px solid rgb(255, 0, 21);
+    top: -30%;
+    left: 0;
+  }
+
+  .ecran-3 {
+    width: 1850px;
+  }
+
+  .img-2 {
+    width: 400px;
+    height: 420px;
+    background-color: #6e97b6;
+    position: absolute;
+    left: 20%;
+    top: -20%;
+  }
+
+  .img-3 {
+    width: 686px;
+    height: 429px;
+    background-color: #6e97b6;
+    position: absolute;
+    right: 0%;
+    bottom: -20%;
+  }
+
+  .ecran-3 .texte-1 {
+    position: absolute;
+    left: 43%;
+    top: -18%;
+  }
+
+  .ecran-3 .texte-2 {
+    position: absolute;
+    right: 17%;
+    top: 30%;
+  }
+
+  .ecran-4 {
+    width: 1270px;
+  }
+
+  .img-4 {
+    width: 652px;
+    height: 575px;
+    background-color: #6e97b6;
+    position: absolute;
+    right: 0%;
+    top: -20%;
+  }
+
+  .ecran-5 {
+    width: 1670px;
+  }
+
+  .img-5 {
+    width: 744px;
+    height: 517px;
+    background-color: #6e97b6;
+    position: absolute;
+    left: 10%;
+    bottom: -20%;
+  }
+
+  .ecran-5 .texte-1 {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+  }
+
+  .ecran-5 .texte-2 {
+    position: absolute;
+    right: 17%;
+    bottom: -20%;
+  }
+
+  .ecran-6 {
+    width: 1370px;
+  }
+
+  .img-6 {
+    width: 685px;
+    height: 531px;
+    background-color: #6e97b6;
+    position: absolute;
+    left: 15%;
+    top: -20%;
+  }
+
+  .ecran-6 .texte-1 {
+    position: absolute;
+    left: 67%;
+    top: -13%;
+  }
+
+  .ecran-7 {
+    width: 1300px;
+  }
+
+  .img-7 {
+    width: 924px;
+    height: 460px;
+    background-color: #6e97b6;
+    position: absolute;
+    right: 0%;
+    bottom: -20%;
+  }
+
+  .ecran-7 .texte-1 {
+    position: absolute;
+    left: 30%;
+    top: 33%;
+  }
+
+  .ecran-8 {
+    width: 1300px;
+  }
+
+  .img-8 {
+    width: 394px;
+    height: 626px;
+    background-color: #6e97b6;
+    position: absolute;
+    right: 50%;
+    top: -20%;
+  }
+
+  .ecran-8 .texte-1 {
+    position: absolute;
+    right: 15%;
+    top: -15%;
+  }
+
+  .ecran-9 {
+    width: 3300px;
+  }
+
+  .img-9 {
+    width: 1155px;
+    height: 836px;
+    background-color: #6e97b6;
+    position: absolute;
+    right: 40%;
+    top: -20%;
+  }
+
+  .ecran-9 .texte-1 {
+    position: absolute;
+    right: 20%;
+    bottom: -18%;
+  }
 }
 
-.ecran-2 {
-  width: 2747px;
-  height: 600px;
-}
+.fourteen {
+  .ecran-1 .texte-1 {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    position: absolute;
+    left: 1%;
+    top: -21%;
+  }
 
-.ecran-2 .img-1 {
-  width: 200px;
-  height: 570px;
-  background-color: #ab6eb6;
-  position: absolute;
-  left: 25%;
-  top: -20%;
-}
+  .ecran-2 {
+    width: 2747px;
+    height: 600px;
+  }
 
-.ecran-2 .texte-1 {
-  position: absolute;
-  left: 35%;
-  bottom: -21%;
-}
+  .ecran-2 .img-1 {
+    width: 200px;
+    height: 570px;
+    background-color: #ab6eb6;
+    position: absolute;
+    right: 25%;
+    top: -20%;
+  }
 
-.bg {
-  width: 12030px;
-  display: inline-flex;
-  flex-direction: row;
-  background-repeat: repeat-x;
-  background-image: url(../img/train-moitié.png);
-  background-size: 50%;
-  border: 5px solid blue;
-  position: relative;
-  top: 50%;
-  left: 0;
-  transform: translate(0, 28%);
-}
+  .ecran-2 .texte-1 {
+    position: absolute;
+    left: 35%;
+    bottom: -21%;
+  }
 
-.bg .screen {
-  position: relative;
-  border: 5px solid rgb(255, 0, 21);
-  top: -30%;
-  left: 0;
-}
+  .bg {
+    width: 12030px;
+    display: inline-flex;
+    flex-direction: row;
+    background-repeat: repeat-x;
+    background-image: url(../img/train-moitié.png);
+    background-size: 50%;
+    border: 5px solid blue;
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translate(0, 28%);
+  }
 
-.ecran-3 {
-  width: 1850px;
-}
+  .bg .screen {
+    position: relative;
+    border: 5px solid rgb(255, 0, 21);
+    top: -30%;
+    left: 0;
+  }
 
-.img-2 {
-  width: 400px;
-  height: 420px;
-  background-color: #6e97b6;
-  position: absolute;
-  left: 20%;
-  top: -20%;
-}
+  .ecran-3 {
+    width: 1850px;
+  }
 
-.img-3 {
-  width: 686px;
-  height: 429px;
-  background-color: #6e97b6;
-  position: absolute;
-  right: 0%;
-  bottom: -20%;
-}
+  .img-2 {
+    width: 465px;
+    height: 371px;
+    background-color: #6e97b6;
+    position: absolute;
+    left: 20%;
+    top: -20%;
+  }
 
-.ecran-3 .texte-1 {
-  position: absolute;
-  left: 43%;
-  top: -18%;
-}
+  .img-3 {
+    width: 656px;
+    height: 535px;
+    background-color: #6e97b6;
+    position: absolute;
+    right: 0%;
+    bottom: -20%;
+  }
 
-.ecran-3 .texte-2 {
-  position: absolute;
-  right: 17%;
-  top: 30%;
-}
+  .ecran-3 .texte-1 {
+    position: absolute;
+    left: 43%;
+    bottom: -18%;
+    text-align: right;
+  }
 
-.ecran-4 {
-  width: 1270px;
-}
+  .ecran-4 {
+    width: 2170px;
+  }
 
-.img-4 {
-  width: 652px;
-  height: 575px;
-  background-color: #6e97b6;
-  position: absolute;
-  right: 0%;
-  top: -20%;
-}
+  .img-4 {
+    width: 500px;
+    height: 590px;
+    background-color: #6e97b6;
+    position: absolute;
+    left: 40%;
+    top: -20%;
+  }
 
-.ecran-5 {
-  width: 1670px;
-}
+  .img-5 {
+    width: 660px;
+    height: 427px;
+    background-color: #6e97b6;
+    position: absolute;
+    right: 0%;
+    bottom: -20%;
+  }
 
-.img-5 {
-  width: 744px;
-  height: 517px;
-  background-color: #6e97b6;
-  position: absolute;
-  left: 10%;
-  bottom: -20%;
-}
+  .ecran-4 .texte-1 {
+    position: absolute;
+    left: 65%;
+    top: -20%;
+  }
 
-.ecran-5 .texte-1 {
-  position: absolute;
-  left: 10%;
-  top: 15%;
-}
+  .ecran-5 {
+    width: 2570px;
+  }
 
-.ecran-5 .texte-2 {
-  position: absolute;
-  right: 17%;
-  bottom: -20%;
-}
+  .img-6 {
+    width: 1023px;
+    height: 411px;
+    background-color: #6e97b6;
+    position: absolute;
+    right: 30%;
+    top: -20%;
+  }
 
-.ecran-6 {
-  width: 1370px;
-}
+  .ecran-5 .texte-1 {
+    position: absolute;
+    left: 30%;
+    top: 55%;
+  }
 
-.img-6 {
-  width: 685px;
-  height: 531px;
-  background-color: #6e97b6;
-  position: absolute;
-  left: 15%;
-  top: -20%;
-}
+  .ecran-6 {
+    width: 2570px;
+  }
 
-.ecran-6 .texte-1 {
-  position: absolute;
-  left: 67%;
-  top: -13%;
-}
+  .img-7 {
+    width: 1107px;
+    height: 458px;
+    background-color: #6e97b6;
+    position: absolute;
+    left: 15%;
+    bottom: -20%;
+  }
 
-.ecran-7 {
-  width: 1300px;
-}
+  .ecran-6 .texte-1 {
+    position: absolute;
+    left: 17%;
+    top: 28%;
+  }
 
-.img-7 {
-  width: 924px;
-  height: 460px;
-  background-color: #6e97b6;
-  position: absolute;
-  right: 0%;
-  bottom: -20%;
-}
+  .ecran-7 {
+    width: 3300px;
+  }
 
-.ecran-7 .texte-1 {
-  position: absolute;
-  left: 30%;
-  top: 33%;
-}
+  .ecran-7 .texte-1 {
+    position: absolute;
+    left: 8%;
+    top: -20%;
+    text-align: right;
+  }
 
-.ecran-8 {
-  width: 1300px;
-}
+  .img-8 {
+    width: 1808px;
+    height: 830px;
+    background-color: #6e97b6;
+    position: absolute;
+    right: 25%;
+    top: -20%;
+  }
 
-.img-8 {
-  width: 394px;
-  height: 626px;
-  background-color: #6e97b6;
-  position: absolute;
-  right: 50%;
-  top: -20%;
-}
-
-.ecran-8 .texte-1 {
-  position: absolute;
-  right: 15%;
-  top: -15%;
-}
-
-.ecran-9 {
-  width: 3300px;
-}
-
-.img-9 {
-  width: 1155px;
-  height: 836px;
-  background-color: #6e97b6;
-  position: absolute;
-  right: 40%;
-  top: -20%;
-}
-
-.ecran-9 .texte-1 {
-  position: absolute;
-  right: 20%;
-  bottom: -18%;
+  .ecran-7 .texte-2 {
+    position: absolute;
+    right: 8%;
+    bottom: -20%;
+  }
 }
