@@ -43,6 +43,107 @@ video {
 // base rules
 // ==================================== */
 
-.texte {
-  font-family: "Comic Sans MS", cursive;
+.bg-main {
+  background-image: url(../img/bg-main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 5px red solid;
+}
+
+.section-title {
+  border: 5px blue solid;
+  position: relative;
+  height: 100vh;
+}
+
+.title {
+  width: 800px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.BD-link {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: white;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.start-link {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 25px;
+}
+
+.start-link-bg {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background: rgba(49, 49, 49, 0.44);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 39px;
+}
+
+.tickets {
+  border: 5px green solid;
+  height: 100vh;
+  position: relative;
+}
+
+.ticket-14,
+.ticket-48 {
+  width: 500px;
+}
+
+.intro-text {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.fade-in-out {
+  opacity: 100%;
+  animation: ease-in-out 4s; /* Animation pendant 4 secondes */
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1; /* Visible pendant 1 seconde (25% de 4s) */
+  }
+  75% {
+    opacity: 1; /* Reste visible */
+  }
+  100% {
+    opacity: 0; /* Disparait à la fin des 4 secondes */
+  }
 }
