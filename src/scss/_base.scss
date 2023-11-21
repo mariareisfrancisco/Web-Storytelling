@@ -84,7 +84,7 @@ body {
 .section-title {
   // border: 5px blue solid;
   position: relative;
-  height: 150vh;
+  height: 120vh;
 }
 
 .title {
@@ -131,7 +131,7 @@ body {
 
 .start-link {
   position: absolute;
-  bottom: 45%;
+  bottom: 75%;
   left: 50%;
   transform: translate(-50%, 0%);
   color: white;
@@ -146,7 +146,7 @@ body {
 
 .start-link-bg {
   position: absolute;
-  bottom: 15%;
+  bottom: 25%;
   left: 50%;
   transform: translate(-50%, 0%);
   background: rgba(49, 49, 49, 0.44);
@@ -231,7 +231,7 @@ body {
 
     .button-choice {
       position: absolute;
-      bottom: 23.5%;
+      bottom: 23%;
       left: 47.5%;
       font-size: 20px;
       padding-top: 20px;
@@ -244,10 +244,9 @@ body {
     .fourteen-man:hover {
       transform: scale(1.1);
     }
-
-    .fourteen-man:hover .button-choice {
-      visibility: visible;
-    }
+  }
+  .forest:has(.fourteen-man:hover) .button-choice {
+    visibility: visible;
   }
 }
 
@@ -276,7 +275,7 @@ body {
 
     .button-choice {
       position: absolute;
-      bottom: 21.5%;
+      bottom: 21%;
       left: 40%;
       font-size: 20px;
       padding-top: 20px;
@@ -289,10 +288,9 @@ body {
     .fourty-man:hover {
       transform: scale(1.1);
     }
-
-    .fourty-man:hover .button-choice {
-      visibility: visible;
-    }
+  }
+  .forest:has(.fourty-man:hover) .button-choice {
+    visibility: visible;
   }
 }
 
@@ -443,8 +441,27 @@ body {
   color: white;
 }
 
-.gradient {
+// .gradient {
+//   position: relative;
+//   top: 0;
+//   left: 50%;
+//   z-index: -1;
+// }
+
+.scroll-down {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  top: 0;
-  left: 60%;
+  top: 85%;
+}
+
+.scroll {
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-size: 20px;
 }
