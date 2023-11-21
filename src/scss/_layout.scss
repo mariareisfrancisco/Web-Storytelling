@@ -1,9 +1,5 @@
-body {
-  box-sizing: border-box;
-}
-
 .horizontal-scroll {
-  // overflow: hidden;
+  overflow: hidden;
   height: 100vh;
 }
 
@@ -11,13 +7,11 @@ body {
   display: inline-flex;
   align-items: center;
   height: 100%;
-  border: red 3px solid;
 }
 
 .screen {
   width: 1438px;
   height: 600px;
-  // border: 5px solid blue;
   position: relative;
 }
 
@@ -40,18 +34,15 @@ body {
   }
 
   .ecran-2 .img-1 {
-    width: 200px;
-    height: 570px;
-    background-color: #ab6eb6;
     position: absolute;
-    left: 25%;
-    top: -20%;
+    left: 15%;
+    top: -30%;
   }
 
   .ecran-2 .texte-1 {
     position: absolute;
     left: 35%;
-    bottom: -21%;
+    bottom: -15%;
   }
 
   .bg {
@@ -59,15 +50,13 @@ body {
     display: inline-flex;
     flex-direction: row;
     background-repeat: repeat-x;
-    background-image: url(../img/train-moitié.png);
+    background-image: url(../img/train-moitié.png?as=webp);
     background-size: 49%;
-    // border: 5px solid blue;
     position: relative;
   }
 
   .bg .screen {
     position: relative;
-    // border: 5px solid rgb(255, 0, 21);
     top: -30%;
     left: 0;
   }
@@ -77,16 +66,12 @@ body {
   }
 
   .img-2 {
-    width: 400px;
-    height: 420px;
     position: absolute;
     left: 20%;
     top: -20%;
   }
 
   .img-3 {
-    width: 686px;
-    height: 429px;
     position: absolute;
     right: 0%;
     bottom: -20%;
@@ -100,7 +85,7 @@ body {
 
   .ecran-3 .texte-2 {
     position: absolute;
-    right: 17%;
+    right: 15%;
     top: 30%;
   }
 
@@ -109,8 +94,6 @@ body {
   }
 
   .img-4 {
-    width: 652px;
-    height: 575px;
     position: absolute;
     right: 0%;
     top: -20%;
@@ -121,8 +104,6 @@ body {
   }
 
   .img-5 {
-    width: 744px;
-    height: 517px;
     position: absolute;
     left: 10%;
     bottom: -20%;
@@ -136,7 +117,7 @@ body {
 
   .ecran-5 .texte-2 {
     position: absolute;
-    right: 17%;
+    right: 15%;
     bottom: -20%;
   }
 
@@ -145,8 +126,6 @@ body {
   }
 
   .img-6 {
-    width: 685px;
-    height: 531px;
     position: absolute;
     left: 15%;
     top: -20%;
@@ -163,8 +142,6 @@ body {
   }
 
   .img-7 {
-    width: 924px;
-    height: 460px;
     position: absolute;
     right: 0%;
     bottom: -20%;
@@ -181,8 +158,6 @@ body {
   }
 
   .img-8 {
-    width: 394px;
-    height: 626px;
     position: absolute;
     right: 50%;
     top: -20%;
@@ -190,7 +165,7 @@ body {
 
   .ecran-8 .texte-1 {
     position: absolute;
-    right: 15%;
+    right: 10%;
     top: -15%;
   }
 
@@ -199,16 +174,14 @@ body {
   }
 
   .img-9 {
-    width: 1155px;
-    height: 836px;
     position: absolute;
     right: 40%;
-    top: -20%;
+    top: -15%;
   }
 
   .ecran-9 .texte-1 {
     position: absolute;
-    right: 20%;
+    right: 15%;
     bottom: -18%;
   }
 
@@ -219,25 +192,18 @@ body {
   }
 
   .img-10 {
-    width: 590px;
-    height: 920px;
     position: absolute;
     left: 0%;
     bottom: -20%;
   }
 
   .img-11 {
-    width: 200px;
-    height: 500px;
-    background-color: #ab6eb6;
     position: absolute;
-    right: 50%;
-    top: -20%;
+    right: 30%;
+    top: -40%;
   }
 
   .img-12 {
-    width: 486px;
-    height: 841px;
     position: absolute;
     right: 0%;
     bottom: -30%;
@@ -263,12 +229,9 @@ body {
   }
 
   .ecran-2 .img-1 {
-    width: 200px;
-    height: 570px;
-    background-color: #ab6eb6;
     position: absolute;
     right: 25%;
-    top: -20%;
+    top: -30%;
   }
 
   .ecran-2 .texte-1 {
@@ -282,9 +245,8 @@ body {
     display: inline-flex;
     flex-direction: row;
     background-repeat: repeat-x;
-    background-image: url(../img/train-moitié.png);
+    background-image: url(../img/train-moitié.png?as=webp);
     background-size: 50%;
-    // border: 5px solid blue;
     position: relative;
   }
 
@@ -299,16 +261,12 @@ body {
   }
 
   .img-2 {
-    width: 465px;
-    height: 371px;
     position: absolute;
     left: 20%;
     top: -20%;
   }
 
   .img-3 {
-    width: 656px;
-    height: 535px;
     position: absolute;
     right: 0%;
     bottom: -20%;
@@ -316,7 +274,7 @@ body {
 
   .ecran-3 .texte-1 {
     position: absolute;
-    left: 43%;
+    left: 40%;
     bottom: -18%;
     text-align: right;
   }
@@ -326,16 +284,12 @@ body {
   }
 
   .img-4 {
-    width: 500px;
-    height: 590px;
     position: absolute;
     left: 40%;
     top: -20%;
   }
 
   .img-5 {
-    width: 660px;
-    height: 427px;
     position: absolute;
     right: 0%;
     bottom: -20%;
@@ -352,8 +306,6 @@ body {
   }
 
   .img-6 {
-    width: 1023px;
-    height: 411px;
     position: absolute;
     right: 30%;
     top: -20%;
@@ -361,8 +313,8 @@ body {
 
   .ecran-5 .texte-1 {
     position: absolute;
-    left: 30%;
-    top: 55%;
+    left: 23%;
+    top: 57%;
   }
 
   .ecran-6 {
@@ -370,8 +322,6 @@ body {
   }
 
   .img-7 {
-    width: 1107px;
-    height: 458px;
     position: absolute;
     left: 15%;
     bottom: -20%;
@@ -379,7 +329,7 @@ body {
 
   .ecran-6 .texte-1 {
     position: absolute;
-    left: 17%;
+    left: 16%;
     top: 28%;
   }
 
@@ -389,14 +339,12 @@ body {
 
   .ecran-7 .texte-1 {
     position: absolute;
-    left: 8%;
-    top: -20%;
+    left: 5%;
+    top: -15%;
     text-align: right;
   }
 
   .img-8 {
-    width: 1808px;
-    height: 830px;
     position: absolute;
     right: 25%;
     top: -20%;
@@ -404,8 +352,8 @@ body {
 
   .ecran-7 .texte-2 {
     position: absolute;
-    right: 8%;
-    bottom: -20%;
+    right: 5%;
+    bottom: -15%;
   }
 
   .ecran-8 .texte-1 {
@@ -415,25 +363,18 @@ body {
   }
 
   .img-9 {
-    width: 590px;
-    height: 920px;
     position: absolute;
     left: 0%;
     bottom: -20%;
   }
 
   .img-10 {
-    width: 200px;
-    height: 500px;
-    background-color: #ab6eb6;
     position: absolute;
-    right: 50%;
+    right: 40%;
     top: -20%;
   }
 
   .img-11 {
-    width: 486px;
-    height: 841px;
     position: absolute;
     right: 0%;
     bottom: -30%;

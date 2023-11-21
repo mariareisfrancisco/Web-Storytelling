@@ -12,7 +12,6 @@ let slider = gsap.to(".slider-track", {
     end: "+=400%", // Change to a more specific distance for horizontal scroll
     pin: true,
     scrub: true,
-    markers: true,
     toggleActions: "play none none reverse",
   },
   //   x: -window.innerWidth * 0.75, // Adjust the horizontal scroll amount

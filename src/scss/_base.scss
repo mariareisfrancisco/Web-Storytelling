@@ -41,10 +41,34 @@ video {
 
 /* ====================================
 // base rules
+
+font-family: "ff-tisa-sans-web-pro", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+font-family: "ff-tisa-sans-web-pro", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "ff-tisa-sans-web-pro", sans-serif;
+font-weight: 400;
+font-style: italic;
+
+font-family: "ff-tisa-sans-web-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: "ff-tisa-sans-web-pro", sans-serif;
+font-weight: 700;
+font-style: italic;
 // ==================================== */
+body {
+  font-family: "Comic Sans MS";
+  box-sizing: border-box;
+}
 
 .bg-main {
-  background-image: url(../img/bg-main.png);
+  background-image: url(../img/bg-main.png?as=webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -54,13 +78,13 @@ video {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  border: 5px red solid;
+  // border: 5px red solid;
 }
 
 .section-title {
-  border: 5px blue solid;
+  // border: 5px blue solid;
   position: relative;
-  height: 100vh;
+  height: 150vh;
 }
 
 .title {
@@ -71,9 +95,21 @@ video {
   transform: translate(-50%, -50%);
 }
 
+.fade-in-out {
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .BD-link {
   position: absolute;
-  top: 5%;
+  top: 20%;
   right: 5%;
   color: white;
   font-size: 16px;
@@ -81,11 +117,21 @@ video {
   text-decoration-line: underline;
   text-transform: uppercase;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-bottom: 3px;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+}
+
+.BD-link:hover {
+  border-bottom: none;
 }
 
 .start-link {
   position: absolute;
-  bottom: 15%;
+  bottom: 45%;
   left: 50%;
   transform: translate(-50%, 0%);
   color: white;
@@ -93,6 +139,9 @@ video {
   text-transform: uppercase;
   text-decoration: none;
   padding: 20px 25px;
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .start-link-bg {
@@ -105,45 +154,297 @@ video {
   border-radius: 39px;
 }
 
+.start-link-bg:hover {
+  box-shadow: none;
+}
+
 .tickets {
-  border: 5px green solid;
-  height: 100vh;
+  // border: 5px green solid;
+  height: 200vh;
   position: relative;
 }
 
 .ticket-14,
 .ticket-48 {
-  width: 500px;
+  width: 600px;
+  position: absolute;
+}
+
+.ticket-14 {
+  top: 68%;
+  left: 20%;
+  transform: rotate(5deg);
+}
+
+.ticket-14:hover {
+  transform: scale(1.1);
+}
+
+.ticket-48 {
+  top: 65%;
+  right: 15%;
+  transform: rotate(5deg);
+}
+
+.ticket-48:hover {
+  transform: scale(1.1);
 }
 
 .intro-text {
   position: absolute;
-  bottom: 50%;
+  top: 25%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 32px;
-  line-height: 35px;
+  transform: translate(-50%, 0%);
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 28px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.fade-in-out {
-  opacity: 100%;
-  animation: ease-in-out 4s; /* Animation pendant 4 secondes */
+.fourty {
+  .forest {
+    background-image: url(../img/foret-fin.png?as=webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 0%;
+    height: 2700px;
+
+    .fourty-man {
+      position: absolute;
+      bottom: 14%;
+      left: 20%;
+      scale: 0.6;
+    }
+
+    .fourteen-man {
+      position: absolute;
+      bottom: 19.5%;
+      left: 40%;
+      scale: 0.6;
+    }
+
+    .button-choice {
+      position: absolute;
+      bottom: 23.5%;
+      left: 47.5%;
+      font-size: 20px;
+      padding-top: 20px;
+      font-weight: 700;
+      text-decoration: none;
+      text-align: center;
+      visibility: hidden;
+    }
+
+    .fourteen-man:hover {
+      transform: scale(1.1);
+    }
+
+    .fourteen-man:hover .button-choice {
+      visibility: visible;
+    }
+  }
 }
 
-@keyframes fadeInOut {
-  0% {
-    opacity: 0;
+.fourteen {
+  .forest {
+    background-image: url(../img/foret-fin.png?as=webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 0%;
+    height: 2700px;
+
+    .fourty-man {
+      position: absolute;
+      bottom: 18%;
+      left: 33%;
+      scale: 0.6;
+    }
+
+    .fourteen-man {
+      position: absolute;
+      bottom: 15%;
+      left: 5%;
+      scale: 0.4;
+    }
+
+    .button-choice {
+      position: absolute;
+      bottom: 21.5%;
+      left: 40%;
+      font-size: 20px;
+      padding-top: 20px;
+      font-weight: 700;
+      text-decoration: none;
+      text-align: center;
+      visibility: hidden;
+    }
+
+    .fourty-man:hover {
+      transform: scale(1.1);
+    }
+
+    .fourty-man:hover .button-choice {
+      visibility: visible;
+    }
   }
-  25% {
-    opacity: 1; /* Visible pendant 1 seconde (25% de 4s) */
+}
+
+.citation {
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-30%, 0);
+}
+
+.citation-1 {
+  height: 100px;
+}
+
+.forest .citation {
+  background-color: rgba(9, 9, 9, 0.54);
+  padding: 70px;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.forest .citation-2 {
+  height: 120px;
+}
+
+.book-sell {
+  padding: 0 100px;
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  h1 {
+    font-size: 40px;
+    padding-top: 20px;
+    font-weight: 400;
   }
-  75% {
-    opacity: 1; /* Reste visible */
+
+  h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+    font-weight: 400;
   }
-  100% {
-    opacity: 0; /* Disparait à la fin des 4 secondes */
+
+  .author {
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 20px;
   }
+
+  .description {
+    font-size: 20px;
+    font-weight: 300;
+    width: 550px;
+    padding-bottom: 20px;
+  }
+
+  .book {
+    width: 550px;
+  }
+
+  .sell-selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0;
+  }
+
+  .sell-infos {
+    padding-left: 100px;
+  }
+
+  .infos {
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 40px;
+  }
+
+  .commentaire {
+    background-color: #f8f8f8;
+    width: 550px;
+    padding: 15px 30px;
+    margin-bottom: 60px;
+  }
+
+  .notation {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+  }
+
+  .star {
+    width: 130px;
+  }
+
+  .date {
+    padding-left: 15px;
+    color: #a7a7a7;
+  }
+
+  .avis {
+    font-size: 17px;
+    font-weight: 300;
+    padding-bottom: 10px;
+  }
+
+  .link {
+    color: #a7a7a7;
+    text-decoration: none;
+    border-bottom: 1px #a7a7a7 solid;
+  }
+
+  .link-home {
+    text-decoration: none;
+    border-bottom: 2px #000000a7 solid;
+  }
+
+  .link-home:hover {
+    border-bottom: none;
+  }
+
+  .sell-button {
+    background-color: #c9e2d1;
+    border-radius: 50px;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .sell-button:hover {
+    box-shadow: inset 0px 4px 4px rgba(32, 53, 15, 0.28);
+  }
+}
+
+.sources {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #c9e2d1;
+  padding: 15px 100px;
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.gradient {
+  position: relative;
+  top: 0;
+  left: 60%;
 }
