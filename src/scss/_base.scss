@@ -67,6 +67,10 @@ body {
   box-sizing: border-box;
 }
 
+// .front-page {
+//   overflow: hidden;
+// }
+
 .bg-main {
   background-image: url(../img/bg-main.png?as=webp);
   background-repeat: no-repeat;
@@ -92,7 +96,7 @@ body {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -35%);
 }
 
 .fade-in-out {
@@ -146,7 +150,7 @@ body {
 
 .start-link-bg {
   position: absolute;
-  bottom: 25%;
+  bottom: 20%;
   left: 50%;
   transform: translate(-50%, 0%);
   background: rgba(49, 49, 49, 0.44);
@@ -172,7 +176,7 @@ body {
 
 .ticket-14 {
   top: 68%;
-  left: 20%;
+  left: 17%;
   transform: rotate(5deg);
 }
 
@@ -182,7 +186,7 @@ body {
 
 .ticket-48 {
   top: 65%;
-  right: 15%;
+  right: 16%;
   transform: rotate(5deg);
 }
 
@@ -192,7 +196,7 @@ body {
 
 .intro-text {
   position: absolute;
-  top: 25%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, 0%);
   font-family: "ff-tisa-sans-web-pro", sans-serif;
@@ -204,6 +208,10 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+audio {
+  display: none;
 }
 
 .fourty {
