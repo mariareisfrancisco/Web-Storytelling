@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Si la scrollbar n'est pas tout en haut (nombre de pixels scrollés ≠ 0)
         //scroll to 400 pixels down from the top
         introScroll = gsap.to(window, {
-          delay: 2,
+          delay: 1,
           duration: 5,
           scrollTo: { y: "#center", offsetY: 20 },
         });
@@ -70,4 +70,26 @@ document.addEventListener("DOMContentLoaded", function () {
   gsap.to(".start-link", {
     opacity: 1,
   });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  if (document.querySelector(".fourteen")) {
+    var audioElement = document.querySelector("audio");
+    if (audioElement) {
+      audioElement.play();
+    } else {
+      console.error("Audio element not found");
+    }
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  if (document.querySelector(".fourty")) {
+    var audioElement = document.querySelector("audio");
+    if (audioElement) {
+      audioElement.play();
+    } else {
+      console.error("Audio element not found");
+    }
+  }
 });
